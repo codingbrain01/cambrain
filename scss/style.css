@@ -8,6 +8,7 @@ html, body {
 
 .container {
   background-color: blue;
+  padding: 50px;
 }
 .container .subdiv1 {
   height: 100vh;

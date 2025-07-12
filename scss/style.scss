@@ -16,6 +16,7 @@ html, body {
 // Use the variable
 .container {
     background-color: $secondary-color;
+    padding: $subdiv-padding;
     .subdiv1 {
         height: $subdiv-vh;
         background-color: $primary-color;
