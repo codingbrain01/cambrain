@@ -2,7 +2,7 @@
 $primary-color: #3498db;
 $secondary-color: blue;
 $subdiv-vh: 100vh;
-$subdiv-margin: 50px;
+$subdiv-padding: 50px;
 
 // Use the variable
 .header {
@@ -18,11 +18,11 @@ $subdiv-margin: 50px;
     .subdiv1 {
         height: $subdiv-vh;
         background-color: $primary-color;
-        margin: $subdiv-margin;
+        padding: $subdiv-padding;
     }
     .subdiv2 {
         height: $subdiv-vh;
         background-color: $primary-color;
-        margin: $subdiv-margin;
+        margin: $subdiv-padding;
     }
 }
