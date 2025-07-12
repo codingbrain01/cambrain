@@ -1,22 +1,18 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
-  background-color: darkblue;
 }
 
 .container {
-  background-color: blue;
-  padding: 50px;
+  background-color: maroon;
 }
 .container .subdiv1 {
   height: 100vh;
   background-color: #3498db;
-  padding: 50px;
 }
 .container .subdiv2 {
   height: 100vh;
   background-color: #3498db;
-  margin: 50px;
 }/*# sourceMappingURL=style.css.map */
