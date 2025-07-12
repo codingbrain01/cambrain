@@ -1,24 +1,36 @@
-// Define a variable
-$primary-color: #3498db;
-$secondary-color: maroon;
+/* DEFINING A VARIABLE */
+
+$container-color: maroon;
+$container-overflow: hidden;
+$container-padding: 5%;
+$subdiv-color: #3498db;
 $subdiv-vh: 100vh;
+$subdiv-borderRadius: 5%;
+$subdiv-margin: 5% 0 5% 0;
+$content-txtalign: center;
+$content-padding: 5%;
 
 html, body {
     height: 100%;
     width: 100%;
-    margin: 0;
-    text-align: center;
+    margin: 0 auto;
 }
 
 // Use the variable
 .container {
-    background-color: $secondary-color;
-    .subdiv1 {
+    background-color: $container-color;
+    overflow: $container-overflow;
+    padding: $container-padding;
+    text-align: center;
+    .subdiv {
         height: $subdiv-vh;
-        background-color: $primary-color;
+        background-color: $subdiv-color;
+        height: $subdiv-vh;
+        border-radius: $subdiv-borderRadius;
+        margin: $subdiv-margin;
     }
-    .subdiv2 {
-        height: $subdiv-vh;
-        background-color: $primary-color;
+    .content {
+        padding: $content-padding;
+        text-align: $content-txtalign;
     }
 }
