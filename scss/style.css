@@ -1,9 +1,9 @@
-.header {
-  background-color: #3498db;
-  padding: 20px;
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
-  color: #fff;
-  border-radius: 10px;
+  background-color: darkblue;
 }
 
 .container {
@@ -12,7 +12,7 @@
 .container .subdiv1 {
   height: 100vh;
   background-color: #3498db;
-  margin: 50px;
+  padding: 50px;
 }
 .container .subdiv2 {
   height: 100vh;
